@@ -45,7 +45,6 @@ public class AvatarController {
 
 
         return ResponseEntity.status(HttpStatus.OK).headers(headers).body(avatar.getData());
-
     }
 
     @GetMapping(value = "/{id}/image-from-file")
